@@ -86,8 +86,17 @@ endfunction ()
 #
 
 set ( srcfiles 
-	CMakeLists.txt
-	src/main.cpp )
+  CMakeLists.txt
+  src/main.cpp
+  src/main.h
+  src/main_ui.fl
+  src/JA_ROM.cpp
+  src/JA_ROM.h
+  src/JA_Symbol.cpp
+  src/JA_Symbol.h
+)
+
+build_with_fluid(main_ui src)
 
 #if ( ${CMAKE_SYSTEM_NAME} STREQUAL "Darwin" )
 #	# additional source code
