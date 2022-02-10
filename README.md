@@ -1,2 +1,2 @@
 # JustAddROM
-A one-purpose disassemble
+A single purpose disassembler
